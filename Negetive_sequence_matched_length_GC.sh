@@ -1,11 +1,10 @@
 #!/bin/bash
 ##########################################################################
-#This script is for generating length and GC content matched background sequence
+#This script is for generating length and GC matched background sequence
 #Created by Houyu Zhang on 2020-07-07.
 #Issue report on Hughiez047@gmail.com
 #Copyright (c) 2020 __YenLab@SKLEH__. All rights reserved.
 ##########################################################################
-#This is changed!!!
 if [ -n "$1" ]; then
     echo "--->>> You provided the arguments: $@, Let's do it..."
 else
@@ -61,7 +60,6 @@ done
 
 #4. Delete tmp files
 rm -f ${bed_file}_Processing.txt ${bed_file}*fabed ${bed_file}_tmp
-
 
 ### Parallel run this scipt
 #If you want to accelerate the calculation, you can split original file into "Thread" number files and run simultaneously.
