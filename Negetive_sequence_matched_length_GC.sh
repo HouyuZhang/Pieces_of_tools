@@ -5,6 +5,7 @@
 #Issue report on Hughiez047@gmail.com
 #Copyright (c) 2020 __YenLab@SKLEH__. All rights reserved.
 ##########################################################################
+#This is changed!!!
 if [ -n "$1" ]; then
     echo "--->>> You provided the arguments: $@, Let's do it..."
 else
